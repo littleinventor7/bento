@@ -29,3 +29,83 @@ ul li a:hover {
 .nav{
      float: right;
 }
+#s1{
+    position: absolute;
+    font-size: 40px;
+    top: 100px;
+    left: 20px;
+}
+#s2{
+    position: absolute;
+    font-size: 20px;
+    top: 200px;
+    left: 20px;
+}
+#i{
+    color: #FBF3DE;
+    width: 500%;
+    height: 500%;
+
+}
+#index-img{
+    height: 30%;
+    width: 30%;
+    float: right;
+    padding: 20px;
+}
+body{
+    background-color: #FBF3DE;
+    background-image:url("seigaiha.png");
+}
+.card-container {
+    display: flex;
+    overflow: hidden;
+    height: 500px;
+    width: 1550px;
+    margin-right: 100px;
+}
+.card {
+    background-color: antiquewhite;
+    border-radius: 15px;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    margin-left: 100px;
+}
+.card h1 {
+    font-weight: 400px;
+    font-size: 30px;
+}
+.card p {
+    font-size: 18px;
+    font-weight: 550;
+    text-align: left;
+    color: #111111;
+    margin: 20px;
+}
+.card img {
+    width: 170px;
+    height: 20%;
+    border-radius: 50%;
+    margin-top: 20p
+}
+#cardt2 {
+    position: absolute;
+    top: 100px;
+    left: 350px;
+}
+#cardt1 {
+    position: absolute;
+    top: 100px;
+    
+}
+#cardt3 {
+    position: absolute;
+    top: 100px;
+    left: 700px;
+}
+#cardt4 {
+    position: absolute;
+    top: 100px;
+    left: 1050px;
+}
