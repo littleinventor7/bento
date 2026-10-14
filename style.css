@@ -6,40 +6,62 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
     overflow: hidden;
-    background-color: #333333;
+    background-color: #FAEBD7;
 }
 
 ul li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 34px 46px;
     text-decoration: none;
 }
 ul li a:hover {
-    background-color: #111111;
+    background-color: #d1c4b3;
 }
 #logo {
-    height: 30px;
-    width: 50px;
-    float: left;
-    position: 50px ;
+    position: absolute;
+    bottom: 690px;
+    right: 1390px;
+
+}
+#logo img{
+    height: 87%;
+    width: 87%;
 }
 .nav{
      float: right;
+     
+}
+.card:hover {
+    background-color: #e6d2b8;
+    transform: rotate(5deg);
+    transition: 0.6s;
+}
+button {
+    background-color: #d1c4b3;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+    height: 60px;
+    width: 550px;
+    position: absolute;
+    bottom: 260px;
+    right: 790px;
 }
 #s1{
     position: absolute;
     font-size: 40px;
-    top: 100px;
-    left: 20px;
+    top: 250px;
+    left: 200px;
 }
 #s2{
     position: absolute;
     font-size: 20px;
-    top: 200px;
-    left: 20px;
+    top: 350px;
+    left: 200px;
 }
 #i{
     color: #FBF3DE;
@@ -47,15 +69,19 @@ ul li a:hover {
     height: 500%;
 
 }
+
 #index-img{
     height: 30%;
     width: 30%;
     float: right;
-    padding: 20px;
+    padding: 100px;
 }
 body{
     background-color: #FBF3DE;
     background-image:url("seigaiha.png");
+}
+button:hover {
+    background-color: #FAEBD7;
 }
 .card-container {
     display: flex;
@@ -65,6 +91,8 @@ body{
     margin-right: 100px;
 }
 .card {
+    transform: rotate(0deg);
+    transition: 0.6s ease-in-out;
     background-color: antiquewhite;
     border-radius: 15px;
     height: 400px;
@@ -97,7 +125,67 @@ body{
 #cardt1 {
     position: absolute;
     top: 100px;
-    
+}
+
+#carde2 {
+    position: absolute;
+    top: 100px;
+    left: 350px;
+}
+#carde1 {
+    position: absolute;
+    top: 100px;
+}
+#carde1 img {
+    margin-top: 20px;
+}
+#carde1 h1 {
+    margin-top: 0px;
+}
+#carde2 img {
+    margin-top: 45px;
+}
+#carde3 img {
+    margin-top: 65px;
+}
+#carde4 img {
+    margin-top: 10px;
+}
+#carde5 img {
+    margin-top: 48px;
+}
+#carde6 img {
+    margin-top: 20px;
+}
+#carde7 img {
+    margin-top: 30px;
+}
+#cardt2 img {
+    margin-top: 30px;
+}
+#cardt3 img {
+    margin-top: 30px;
+}
+#cardt4 img {
+    margin-top: 30px;
+}
+#cardt5 img {
+    margin-top: 30px;
+}
+#cardt6 img {
+    margin-top: 30px;
+}
+#cardt7 img {
+    margin-top: 30px;
+}
+#cardt1 img {
+    width: 230px;
+    height: 20%;
+}
+#cardt1 h1 {
+    position: absolute;
+    top: 200px;
+    left: 110px;
 }
 #cardt3 {
     position: absolute;
@@ -108,4 +196,39 @@ body{
     position: absolute;
     top: 100px;
     left: 1050px;
+}
+#cardt5 {
+    position: absolute;
+    top: 550px;
+   
+}
+#cardt6 {
+    position: absolute;
+    top: 550px;
+    left: 350px;
+}
+#cardt7 {
+    position: absolute;
+    top: 550px;
+    left: 700px;
+}
+#carde3 {
+    position: absolute;
+    top: 100px;
+    left: 700px;
+}
+#carde4 {
+    position: absolute;
+    top: 100px;
+    left: 1050px;
+}
+#carde5 {
+    position: absolute;
+    top: 550px;
+   
+}
+#carde6 {
+    position: absolute;
+    top: 550px;
+    left: 350px;
 }
