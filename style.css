@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul li a:hover {
+    background-color: #111111;
+}
+#logo {
+    height: 30px;
+    width: 50px;
+    float: left;
+    position: 50px ;
+}
+.nav{
+     float: right;
+}
